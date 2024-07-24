@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w-100 {
+  width: 100%;
+}
+.main {
+  padding: 1rem 0 1.5rem 0;
+  background-color: #edf2f7;
+  font-family: "Roboto", sans-serif;
+}
+.main__container {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0;
+  width: 570px;
+}
+.main__logo {
+  max-width: 110px;
+  height: auto;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+.logo__image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.main__content {
+  text-align: center;
+  padding: 0rem 3rem 2rem 3rem;
+}
+.content__title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.content__text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.custom-text {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+.content__text--paragraph {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+.content__info {
+  margin: 2rem 0 0.5rem 0;
+}
+.content__image {
+  width: 80px;
+  margin: 2rem 0;
+}
+.content__button {
+  border: none;
+}
+.content__button--link {
+  color: #fff !important;
+  background: linear-gradient(
+    80deg,
+    rgba(57, 84, 148, 1) 0%,
+    rgba(49, 174, 228, 1) 100%
+  );
+  text-decoration: none;
+  padding: 1rem 5rem;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.content__list {
+  text-align: center;
+  margin: 1rem auto 0.5rem auto;
+  width: fit-content;
+}
+.content__list-item {
+  text-indent: -4px;
+  margin: 0.5rem 0;
+  text-align: start;
+  position: relative;
+}
+.content__list-item::marker {
+  color: #718096;
+  font-size: 1.5rem;
+}
+.content__aditional {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 0.8rem;
+  border-radius: 3px;
+  margin: 1.5rem 0;
+}
+.content__aditional--info {
+  font-size: 40px;
+  color: #666666;
+}
+.content__button--confirm-direction {
+  margin: 3rem 0 2rem 0;
+}
+.margin-content-special {
+  margin-bottom: 1.5rem;
+}
+.margin-button-redirect-custom {
+  margin: 4rem 0 5rem 0;
+}
+.margin-button-redirect {
+  margin: 2rem 0 5rem 0;
+}
+.text-additional {
+  margin: 0.5rem 0 5rem 0;
+}
+.main__footer {
+  text-align: center;
+}
+.footer__social {
+  margin: 3rem 0 1rem 0;
+}
+.footer__social-link {
+  text-decoration: none;
+  margin: 0 1.5rem;
+}
+.footer__social-link img {
+  width: 24px;
+}
+.footer__follow {
+  margin-top: 4rem;
+}
+.footer__message,
+.footer__copyright {
+  margin: 0.4rem 0;
+}
+.footer__follow,
+.footer__message,
+.footer__copyright {
+  font-size: 12px;
+  color: #5e5e5e;
+}
+@media screen and (max-width: 769px) {
+  .main {
+    padding: 3rem 0 0.5rem 0;
+  }
+  .main__container {
+    width: 100%;
+  }
+  .main__logo {
+    padding-left: 0;
+    padding-top: 1rem;
+    max-width: 90px;
+  }
+  .main__content {
+    padding: 0 1.8rem 1rem 1.8rem;
+  }
+  .content__title {
+    font-size: 12px;
+  }
+  .custom-text {
+    font-size: 10px;
+  }
+  .content__text--paragraph {
+    width: 90%;
+  }
+  .content__info {
+    margin: 1rem 0 0.1rem 0;
+  }
+  .text-additional {
+    margin: 0.1rem 0 1rem 0;
+  }
+  .content__title {
+    margin-bottom: 1rem;
+  }
+  .content__image {
+    width: 60px;
+    margin: 0.6rem 0;
+  }
+  .content__aditional {
+    margin: 1rem 0;
+  }
+  .content__aditional--info {
+    font-size: 25px;
+  }
+  .content__button--confirm-direction,
+  .margin-button-redirect {
+    margin: 1.5rem 0;
+  }
+  .margin-content-special {
+    margin-bottom: 0.5rem;
+  }
+  .margin-button-redirect-custom {
+    margin: 2.5rem 0 2rem 0;
+  }
+  .content__button--link {
+    padding: 0.7rem 3rem;
+    font-size: 12px;
+  }
+  .content__list {
+    margin: 0.5rem auto;
+  }
+  .content__list-item {
+    text-indent: -6px;
+  }
+  .content__list-item::marker {
+    font-size: 1rem;
+  }
+  .footer__follow,
+  .footer__message,
+  .footer__copyright {
+    font-size: 10px;
+  }
+  .footer__follow {
+    margin-top: 1rem;
+  }
+  .footer__social {
+    margin: 2rem 0 0.5rem 0;
+  }
+  .footer__message,
+  .footer__copyright {
+    margin: 0.25rem 0;
+  }
+  .footer__social-link {
+    margin: 0 1rem;
+  }
+  .footer__social-link img {
+    width: 18px;
+  }
+}
